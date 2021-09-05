@@ -35,10 +35,10 @@ a {
 	text-decoration: none;
 }
 a:link, a:visited {
-	color: #931420;
+	color: #931420 !important;
 }
 a:hover, a:focus {
-	color: black;
+	color: black !important;
 }
 
 /* the styles for the header */

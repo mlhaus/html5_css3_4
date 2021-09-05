@@ -17,13 +17,13 @@ body {
 	padding: 15px 0;
 	border: 1px solid black;
     display: grid;                                   /* make the body a grid */
-    grid-template: repeat(4, auro) / 1fr;
+    grid-template: repeat(4, auto) / auto 1fr;       /* define four rows and two columns */
     grid-gap: 1.5em;                                 /* define the gap between grid areas */
-    grid-template-areas:
-        "head"
-        "navi"
-        "main"
-        "foot";
+    grid-template-areas:                             /* define the template areas */
+        "head head"
+        "navi navi"
+        "main main"
+        "foot foot";
 }
 article, aside, h1, h2, h3, p {
 	margin: 0;
@@ -164,7 +164,17 @@ footer p {
 	    width: 100%;
 	    margin: 0;
 	    border: none;
+<<<<<<< HEAD
         grid-gap: 0;                                     /* so there's no space between the menu and aside */
+=======
+        grid-template: repeat(4, auto) / 1fr;            /* change the template so it has four rows and one column */
+        grid-gap: 0;                                     /* so there's no space between the menu and aside */
+        grid-template-areas:                             /* define the template areas */
+            "head"
+            "navi"
+            "main"
+            "foot";
+>>>>>>> c719766632134c00a82ce0bc4eba36ee671c66cd
     }
     header {
         padding-bottom: 1.5em;                            /* because there's no row gap */

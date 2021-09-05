@@ -35,10 +35,17 @@ a {
 	text-decoration: none;
 }
 a:link, a:visited {
+<<<<<<< HEAD
 	color: #931420;
 }
 a:hover, a:focus {
 	color: black;
+=======
+	color: #931420 !important;
+}
+a:hover, a:focus {
+	color: black !important;
+>>>>>>> c719766632134c00a82ce0bc4eba36ee671c66cd
 }
 
 /* the styles for the header */
@@ -61,7 +68,10 @@ header h3 {
 header img {
 	width: 8.0808%;                      /* 80 / 990 */
 	max-width: 80px;                     /* native size */
+<<<<<<< HEAD
     min-width: 40px;
+=======
+>>>>>>> c719766632134c00a82ce0bc4eba36ee671c66cd
 	float: left;
 	margin-left: 2.0202%;                /* 20 / 990 */
 }
